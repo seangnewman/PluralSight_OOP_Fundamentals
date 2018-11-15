@@ -10,13 +10,15 @@ namespace ACM.BL
     {
 
         public Customer()
+            :this(0)
         {
-
+            
         }
 
         public Customer(int customerId)
         {
             this.CustomerId = customerId;
+            AddressList = new List<Address>();
         }
 
         public static int InstanceCount { get; set; }
@@ -33,6 +35,11 @@ namespace ACM.BL
 
         public int CustomerId { get; private set; }
 
+        public List<Address> AddressList { get; set; }
+
+        public int CustomerType { get; set; }
+
+
         public string FullName { get {
 
                 string fullName = LastName;
@@ -47,19 +54,7 @@ namespace ACM.BL
                 return fullName;
             }
         }
-        public Customer Retrieve(int customerId)
-        {
-            return new Customer();
-        }
-
-        public List<Customer> RetrieveAll()
-        {
-            return new List<Customer>();
-        }
-        public bool Save()
-        {
-            return true;
-        }
+        
 
         public bool Validate()
         {
