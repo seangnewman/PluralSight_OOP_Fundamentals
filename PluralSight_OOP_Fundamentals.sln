@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA542BEF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "ACM.BLTest\ACM.BLTest.csproj", "{CCE1D3A2-4B83-4749-8735-E60D0FBB3B04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.Common", "ACME.Common\ACME.Common.csproj", "{A87A0047-1A16-40C4-9513-A3A414359A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.CommonTest", "ACME.CommonTest\ACME.CommonTest.csproj", "{CF984094-6A7A-419B-8A51-27BB2797562B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,21 @@ Global
 		{CCE1D3A2-4B83-4749-8735-E60D0FBB3B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE1D3A2-4B83-4749-8735-E60D0FBB3B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE1D3A2-4B83-4749-8735-E60D0FBB3B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87A0047-1A16-40C4-9513-A3A414359A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87A0047-1A16-40C4-9513-A3A414359A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87A0047-1A16-40C4-9513-A3A414359A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87A0047-1A16-40C4-9513-A3A414359A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF984094-6A7A-419B-8A51-27BB2797562B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF984094-6A7A-419B-8A51-27BB2797562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF984094-6A7A-419B-8A51-27BB2797562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF984094-6A7A-419B-8A51-27BB2797562B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CCE1D3A2-4B83-4749-8735-E60D0FBB3B04} = {DA542BEF-4A3C-497D-A3D9-6721BD221B03}
+		{CF984094-6A7A-419B-8A51-27BB2797562B} = {DA542BEF-4A3C-497D-A3D9-6721BD221B03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8E266BE-651C-46A4-9BF5-6DAE60D605C8}

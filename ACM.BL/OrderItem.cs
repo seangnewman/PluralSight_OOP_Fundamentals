@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class OrderItem
+    public class OrderItem:EntityBase
     {
          
         public OrderItem()
@@ -28,12 +28,27 @@ namespace ACM.BL
             return new OrderItem();
         }
 
-        public bool Save()
+        public  bool Save(OrderItem orderItem)
         {
-            return true;
-        }
+            var success = true;
 
-        public bool Validate()
+            if (orderItem.HasChanges && orderItem.IsValid)
+            {
+                if (orderItem.IsNew)
+                {
+
+                }
+                else
+                {
+
+                }
+            }
+
+            return success;
+        }
+    
+
+        public override bool Validate()
         {
             var isValid = true;
 
