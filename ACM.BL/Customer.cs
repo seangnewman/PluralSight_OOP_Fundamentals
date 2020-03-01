@@ -22,6 +22,7 @@ namespace ACM.BL
             AddressList = new List<Address>();
         }
 
+
         public static int InstanceCount { get; set; }
         private string _lastName;
 
